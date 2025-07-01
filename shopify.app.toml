@@ -1,3 +1,19 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-scopes = "write_products"
+client_id = "333c3642dd752a4ed263ef0b96f7fd4c"
+name = "canariastest5"
+handle = "canariastest5"
+application_url = "https://example.com/"
+embedded = true
+
+[webhooks]
+api_version = "2025-04"
+
+[auth]
+redirect_urls = [ "https://example.com/api/auth" ]
+
+[pos]
+embedded = false
+
+[build]
+include_config_on_deploy = true
